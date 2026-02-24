@@ -5,6 +5,7 @@ class Product {
   final double price;
   final String emoji;      // ← Emoji sebagai gambar produk (offline-friendly!)
   final String description;
+  final String category;
 
   Product({
     required this.id,
@@ -12,5 +13,7 @@ class Product {
     required this.price,
     required this.emoji,
     required this.description,
+    required this.category,
+    
   });
 }
